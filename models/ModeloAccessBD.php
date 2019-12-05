@@ -2,7 +2,11 @@
 
 require_once './libs/DB.php';
 
-class ModeloBase extends DB {
+
+//class ModeloBase extends DB {
+class ModeloAccessBD extends DB{
+
+
 	public $db;
 	public $string;
 
