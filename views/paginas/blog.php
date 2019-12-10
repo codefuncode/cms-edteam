@@ -1,5 +1,5 @@
 <?php
-  require_once 'controllers/BlogController.php';
+  require_once './controllers/BlogController.php';
   $blog = new BlogController();
   $categorias = $blog->obtenerCategorias();
 
@@ -10,10 +10,13 @@
 ?>
 
   <nav class="nav navbar navbar-expand-lg d-lg-flex flex-lg-column align-items-lg-start">
+
     <div class="container-fluid d-flex justify-content-end display-lg-none">
-      <a class="gray-opacity" href="#">Iniciar sesión</a>
-      <a class="gray-opacity margin-left-20" href="#">Registro</a>
-      <a class="gray-opacity margin-left-20" target="_blank" href="https://wa.me/5213316923799?text=Hola, ¿me puedes ayudar?">Envíame un mensaje</a>
+
+      <a class="gray-opacity" href="index.php?page=login">Iniciar sesión</a>
+
+      <a class="gray-opacity margin-left-20" href="index.php?page=registro">Registro</a>
+     <a class="gray-opacity margin-left-20" target="_blank" href="https://wa.me/5213316923799?text=Hola, ¿me puedes ayudar?">Envíame un mensaje</a>
       <a class="gray-opacity margin-left-20" href="index.php?page=blog&lang=es">ES</a>
       <a class="gray-opacity margin-left-20" href="index.php?page=blog&lang=en">EN</a>
     </div>

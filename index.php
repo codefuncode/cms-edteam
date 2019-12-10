@@ -1,3 +1,3 @@
 <?php
-	require('core/request.php');
+	require_once('core/request.php');
 ?>

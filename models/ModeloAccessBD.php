@@ -1,8 +1,6 @@
 <?php
-
-require_once './libs/DB.php';
-
-
+require_once('./libs/DB.php');
+//require_once ('./libs/DB.php');
 //class ModeloBase extends DB {
 class ModeloAccessBD extends DB{
 
@@ -52,3 +50,4 @@ class ModeloAccessBD extends DB{
 	}
 
 }
+?>

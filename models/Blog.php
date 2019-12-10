@@ -1,4 +1,5 @@
 <?php
+//require_once 'ModeloAccessBD.php';
 require_once 'ModeloAccessBD.php';
 
 class Blog extends ModeloAccessBD {
@@ -12,6 +13,7 @@ class Blog extends ModeloAccessBD {
 		$query = "SELECT * FROM categorias ORDER BY categoria";
 		$resultado = $db->obtenerTodos($query);
 		return $resultado;
+		//echo $resultado;
 	}
 
 	public function guardarPublicacion($datos) {
@@ -88,5 +90,6 @@ class Blog extends ModeloAccessBD {
 		$resultado = $db->obtenerTodos($query);
 		return $resultado;
 	}
+
 
 }

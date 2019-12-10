@@ -1,6 +1,7 @@
 <?php
-
-require_once 'config.php';
+$ruta=dirname(__FILE__, 2);
+require_once($ruta.  "/config.php");
+//require_once 'config.php';
 $page = $_GET['page'];
 
 if (!empty($page)) {

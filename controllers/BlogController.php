@@ -1,6 +1,7 @@
 <?php
 
-require_once 'models/blog.php';
+//require_once dirname(__FILE__) . 'models/Blog.php'; 
+require_once('./models/Blog.php');
 
 class BlogController {
 
