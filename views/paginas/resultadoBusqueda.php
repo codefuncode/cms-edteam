@@ -10,8 +10,8 @@
 
   <nav class="nav navbar navbar-expand-lg d-lg-flex flex-lg-column align-items-lg-start">
     <div class="container-fluid d-flex justify-content-end display-lg-none">
-      <a class="gray-opacity" href="#">Iniciar sesión</a>
-      <a class="gray-opacity margin-left-20" href="#">Registro</a>
+      <a class="gray-opacity" href="index.php?page=login">Iniciar sesión</a>
+      <a class="gray-opacity margin-left-20" href="index.php?page=registro">Registro</a>
     </div>
     <a class="navbar-brand nav--title" href="#"><?php echo NOMBRE_BLOG; ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

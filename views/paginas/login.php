@@ -26,6 +26,7 @@
                     <!-- Method indica cómo enviaremos la información por el método HTTP -->
                     <!-- enctype multipart/form-data permite agregar archivos -->
                     <form action="index.php?page=login" method="POST" name="loginForm" id="loginForm">
+                        
                         <div class="form-group">
                             <input type="text" id="apodo" name="apodo" class="form-control" required>
                             <label for="apodo" class="form-label">Usuario</label>
@@ -40,8 +41,21 @@
                                 <label class="form-check-label order-2" for="remember">Recuérdame</label>
                                 <label class="label--ckecked order-1" for="remember"></label>
                             </div>
-                            <!--<a href="#" class="forgot__password--link">¿Olvidó su contraseña?</a>-->
+                            <a href="#" class="forgot__password--link">¿Olvidó su contraseña?</a>
+
+                            
+
+
                         </div>
+
+                        <p class="singup-helper">
+                            ¿Nuevo? 
+
+                            <a id="login-signup-link" href="http://localhost/cms-edteam/index.php?page=registro">
+                            Regístrate ahora »</a>
+
+
+                    </p>
                         <div class="d-flex justify-content-lg-between">
                             <button type="submit" class="btn btn-login align-self-center" name="acceso" id="acceso">Entrar</button>
                         </div>

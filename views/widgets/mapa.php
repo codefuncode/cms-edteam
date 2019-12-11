@@ -1,6 +1,6 @@
 <style>
 	#map {
-		height: 100%;
+		height: 10%;
 	}
 </style>
 
